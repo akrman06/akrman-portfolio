@@ -1,0 +1,63 @@
+*::selection{
+    background-color: rgba(174, 174, 174, 0.461);
+}
+*{
+    font-family: conthrax;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.259);
+    margin: 0;
+}
+.mee{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 50%;
+}
+.mee img{
+    width: inherit;
+    border-radius: 50%;
+}
+.mee img:active{
+    scale: 3;
+    border-radius: 20%;
+    transition: 0.5s;
+    backdrop-filter: blur(10px);
+    margin: 0;
+    position: absolute;
+    top: -100%;
+    left: 100%;
+    box-shadow: 0px 0px 18px;
+
+}
+
+
+h5,h6{
+    display: inline;
+    margin: 10px;
+    margin-left: 5% ;
+}
+
+.gallery{
+    background-color: rgba(255, 245, 228, 0.298);
+}
+.gallery > img{
+    width: 49%;
+    clear: none;
+    max-width: 400px;
+}
+.krhba{
+    width: 100%;
+}
+.c{
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0),white,white,rgba(0, 0, 0, 0));
+    
+    text-align: center;
+    margin-top: 5%;
+    padding: 2%;
+}
+.c a{
+    color: green;
+}

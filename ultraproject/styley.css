@@ -1,0 +1,77 @@
+@keyframes aa {
+    
+    100%{
+        transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+        scale: 1.2;
+    }
+}
+
+
+.ydour {
+    width: 200px;
+    height: 200px;
+    border: 4px double #ffffff8f;
+    border-radius: 80% 24%;
+    animation-name: aa;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+}
+.ydour2{
+    width: 200px;
+    height: 200px;
+    border: 4px double #ffffff8f;
+    border-radius: 80% 24%;
+    animation-name: aa;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+    transform: rotate(-90deg);
+}
+.ydour3{
+    width: 200px;
+    height: 200px;
+    transform: rotate(-45deg);
+    border: 4px double #ffffff8f;
+    border-radius: 80% 24%;
+    animation-name: aa;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    position: absolute;
+}
+.ydour4{
+    width: 200px;
+    height: 200px;
+    transform: rotate(45deg);
+    border: 4px double #ffffff8f;
+    border-radius: 80% 24%;
+    animation-name: aa;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    position: absolute;
+}
+.ydouur{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 300px;
+    height: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ydourou{
+   width: 250px;
+   box-shadow: 0px 0px 80px rgba(148, 215, 67, 0.598), 0px 0px 3px rgb(188, 225, 150) inset;
+   filter: blur(1px);
+}
